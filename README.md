@@ -18,7 +18,7 @@ You'll need a [Personal Access Token](https://docs.microsoft.com/en-us/vsts/acco
 
 ```
 cd e:\
-git clone git@github.com:frankfuu/vsts-bulk-setup.git
+git clone https://github.com/frankfuu/vsts-bulk-setup.git
 cd vsts-bulk-setup
 ```
 
