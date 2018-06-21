@@ -3,11 +3,11 @@
 ```
 cd e:\
 git clone git@github.com:frankfuu/vsts-bulk-setup.git
+cd vsts-bulk-setup
 ```
 
 ## Installation
 ```
-cd vsts-bulk-setup
 .\setup.ps1 -pat "xxxxx" -url "https://xxxx.visualstudio.com" `
 -agentSourcePath "vsts-agent-win-x64-2.129.1.zip" -targetPathRoot "e:\vsts" `
 -copies 2 -agentPrefix "my-test-bd-agent" -pool "MyTestPool"
