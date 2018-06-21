@@ -14,13 +14,14 @@ Purpose of this project is to be able to easily setup VSTS with multiple agent p
 ## Prereqs
 You'll need a [Personal Access Token](https://docs.microsoft.com/en-us/vsts/accounts/use-personal-access-tokens-to-authenticate?view=vsts) (PAT) and have already [created an agent pool](https://docs.microsoft.com/en-us/vsts/pipelines/agents/pools-queues?view=vsts#creating-agent-pools-and-queues)
 
+## Installation
+
 ```
 cd e:\
 git clone git@github.com:frankfuu/vsts-bulk-setup.git
 cd vsts-bulk-setup
 ```
 
-## Installation
 ```
 .\setup.ps1 -pat "xxxxx" -url "https://xxxx.visualstudio.com" `
 -agentSourcePath "vsts-agent-win-x64-2.129.1.zip" -targetPathRoot "e:\vsts" `
