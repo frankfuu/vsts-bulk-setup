@@ -20,6 +20,10 @@ You'll need a [Personal Access Token](https://docs.microsoft.com/en-us/vsts/acco
 cd e:\
 git clone https://github.com/frankfuu/vsts-bulk-setup.git
 cd vsts-bulk-setup
+
+## optionally download agent source from VSTS directly
+iwr https://vstsagentpackage.azureedge.net/agent/2.134.2/vsts-agent-win-x64-2.134.2.zip -OutFile vsts-agent-win-x64-2.134.2.zip
+
 ```
 
 ```
