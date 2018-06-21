@@ -1,4 +1,18 @@
-# Setup
+# Description
+Purpose of this project is to be able to easily setup VSTS with multiple agent pools and have multiple agents. For example, I might want to have
+
+- Builds Pool (group of agents dedicated to compiling code and running unit tests)
+  - Agent 1
+  - Agent 2
+- Deployments Pool (group of agents dedicated to deploying code)
+  - Agent 1
+  - Agent 2
+- Automated Testing Pool (group of agents dedicated to doing automated integration tests)
+  - Agent 1
+  - Agent 2
+
+## Prereqs
+You'll need a (Personal Access Token](https://docs.microsoft.com/en-us/vsts/accounts/use-personal-access-tokens-to-authenticate?view=vsts) (PAT) and have already [created an agent pool](https://docs.microsoft.com/en-us/vsts/pipelines/agents/pools-queues?view=vsts#creating-agent-pools-and-queues)
 
 ```
 cd e:\
