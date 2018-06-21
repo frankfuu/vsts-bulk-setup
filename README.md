@@ -15,9 +15,7 @@ cd vsts-bulk-setup
 
 This will create two agents in `E:\vsts\MyTestPool\`
 ```
-> gci E:\vsts\MyTestPool\
-
-    Directory: E:\vsts\MyTestPool
+> gci E:\vsts\MyTestPool\    
 
 Mode                LastWriteTime         Length Name
 ----                -------------         ------ ----
