@@ -12,7 +12,7 @@ Purpose of this project is to be able to easily setup VSTS with multiple agent p
   - Agent 2
 
 ## Prereqs
-You'll need a (Personal Access Token](https://docs.microsoft.com/en-us/vsts/accounts/use-personal-access-tokens-to-authenticate?view=vsts) (PAT) and have already [created an agent pool](https://docs.microsoft.com/en-us/vsts/pipelines/agents/pools-queues?view=vsts#creating-agent-pools-and-queues)
+You'll need a [Personal Access Token](https://docs.microsoft.com/en-us/vsts/accounts/use-personal-access-tokens-to-authenticate?view=vsts) (PAT) and have already [created an agent pool](https://docs.microsoft.com/en-us/vsts/pipelines/agents/pools-queues?view=vsts#creating-agent-pools-and-queues)
 
 ```
 cd e:\
