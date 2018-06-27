@@ -1,15 +1,12 @@
 <# 
+        ***** Description *****
+        Sets up VSTS agents in bulk
+        ***** Example *****        
+        .\setup.ps1 -pat "xxxxx" -url "https://xxxx.visualstudio.com" `
+        -agentSourcePath "vsts-agent-win-x64-2.129.1.zip" -targetPathRoot "e:\vsts" `
+        -copies 1 -agentPrefix "my-test-bd-agent" -pool "MyTestPool"
 
-***** Description *****
-Sets up VSTS agents in bulk
-
-***** Example *****
-.\setup.ps1 -pat "xxxxx" -url "https://xxxx.visualstudio.com" `
--agentSourcePath "vsts-agent-win-x64-2.129.1.zip" -targetPathRoot "e:\vsts" `
--copies 1 -agentPrefix "my-test-bd-agent" -pool "MyTestPool"
-
-Note : Needs to run with Administrator rights
-
+        Note : Needs to run with Administrator rights.
 #>
 
 Param(
