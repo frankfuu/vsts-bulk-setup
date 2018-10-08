@@ -27,12 +27,12 @@ iwr https://vstsagentpackage.azureedge.net/agent/2.134.2/vsts-agent-win-x64-2.13
 ```
 
 ```
-.\setup.ps1 -pat "xxxxx" -url "https://xxxx.visualstudio.com" `
--agentSourcePath "vsts-agent-win-x64-2.129.1.zip" -targetPathRoot "e:\vsts" `
--copies 2 -agentPrefix "my-test-bd-agent" -pool "MyTestPool"
+ .\setup.ps1 -pat "INSERT_PAT" `
+ -url "https://INSERT_ACCOUNTNAME.visualstudio.com" -agentSourcePath "vsts-agent-win-x64-2.129.1.zip" `
+ -targetPathRoot "c:\vsts" -agentPrefix "INSERT_PCNAME-os-disk-bd-agent" -pool "INSERT_POOLNAME" -copies 2
 ```
 
-This will create two agents in `E:\vsts\MyTestPool\`
+This will create two agents in `E:\vsts\INSERT_POOLNAME\`
 ```
 > gci E:\vsts\MyTestPool\    
 
