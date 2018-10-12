@@ -21,7 +21,14 @@ Param(
 
 foreach($n in 1..$copies)
 {
-  $agentName = "$agentPrefix-$n"
+  
+  if($copies -eq 1)
+  {
+    $agentName = "$agentPrefix"
+  } else {
+    $agentName = "$agentPrefix-$n"
+  }
+  
   $tgtDir = "$targetPathRoot\$pool\$agentName"
 
   Expand-Archive -Path $agentSourcePath -DestinationPath $tgtDir
